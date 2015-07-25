@@ -31,3 +31,16 @@ background-color: white;
 footer {margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
+
+.grid-item {
+  font-family: "tahoma";
+  background-color: #F0F0F0;
+  height: 500px;
+}
+.grid-item-text {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  text-align: center;
+}
