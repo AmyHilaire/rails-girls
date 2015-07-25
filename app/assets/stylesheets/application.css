@@ -33,9 +33,16 @@ table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
 
 .grid-item {
+  box-sizing: border-box;
   font-family: "tahoma";
   background-color: #F0F0F0;
-  height: 500px;
+  height: 450px;
+  border: 10px;
+  Border-style: solid;
+  border-color: #FFF;
+}
+.grid-item-img {
+  padding: 20px;
 }
 .grid-item-text {
   width: 100%;
