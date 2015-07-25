@@ -14,7 +14,20 @@
  *= require_self
  */
 
-body { padding-top: 100px; }
+body { 
+  padding-top: 60px;
+background-color: white;
+  }
+  
+  .navbar-custom {
+    font-family: "palatino linotype";
+    color: #AD0E68;
+    background-color: #FAD7EB;
+  }
+  h1 {font-family: "palatino linotype";
+  color: #AD0E68; 
+  padding-bottom: 50px;
+  }
 footer {margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
